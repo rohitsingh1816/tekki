@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Management</title>
+</head>
+<body>
+  <h1>Menu Management</h1>
+  <form id="menuForm">
+    <label for="menuName">Menu Name:</label>
+    <input type="text" id="menuName" required>
+    <label for="parentMenu">Parent Menu:</label>
+    <select id="parentMenu">
+      <option value="">None</option>
+    </select>
+    <button type="button" onclick="addMenu()">Add Menu</button>
+  </form>
+  <script src="frontend.js"></script>
+</body>
+</html>
